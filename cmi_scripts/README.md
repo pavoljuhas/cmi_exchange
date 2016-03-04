@@ -27,29 +27,29 @@ Contents
   model.
 
 * [linearfit](./linearfit) - Perform a simple linear fit to a set of noisy
-  data. This script can be run in IPython "demo" mode or as an IPython
+  data. This script can be run in IPython "demo" mode or as a Jupyter
   notebook.
 
 * [pdfrectprofile](./pdfrectprofile) - Demonstrate definition of custom
   profile for PDF calculation.
 
-More information on IPython
+More information on Jupyter
 ---------------------------
 
-Some of the above examples are written as IPython notebooks (extension
-.ipynb).  An IPython notebook creates an interactive computational environment
-similar to Mathematica.  To start notebook mode in IPython, run the command
+Some of the above examples are written as Jupyter notebooks (extension
+.ipynb).  A Jupyter notebook creates an interactive computational environment
+similar to Mathematica.  To start a Jupyter notebook session, run the command
 
-    ipython notebook
+    jupyter notebook
 
 You can then load the .ipynb file directly into your workspace. Alternatively,
 you can run
 
-    ipython notebook name_of_notebook.ipynb
+    jupyter notebook name_of_notebook.ipynb
 
-to load the notebook file directly. You can then interactivly run the script
+to load the notebook file directly. You can then interactively run the script
 step by step, changing individual parts and updating the result by typing
-"Ctrl+Enter".
+``Ctrl+Enter``.
 
 
 * For more information visit the [IPython
