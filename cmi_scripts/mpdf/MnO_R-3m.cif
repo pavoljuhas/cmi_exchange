@@ -15,20 +15,20 @@
 #     strain(a): -0.01000
 #  Fm-3m[0,0,0]GM1+(a) 225 Fm-3m s=1 i=1
 #     strain(a): 0.00000
- 
+
 data_isodistort-output
- 
+
 _cell_length_a    3.15663
 _cell_length_b    3.15663
 _cell_length_c    7.63782
 _cell_angle_alpha 90.00000
 _cell_angle_beta  90.00000
 _cell_angle_gamma 120.00000
- 
+
 _symmetry_space_group_name_H-M "R -3 2/m (hexagonal axes)"
 _symmetry_Int_Tables_number 166
 _space_group_reference_alt_setting_axes hexagonal
- 
+
 loop_
 _space_group_symop_id
 _space_group_symop_operation_xyz
@@ -68,7 +68,7 @@ _space_group_symop_operation_xyz
 34 -y+2/3,-x+1/3,z+1/3
 35 x+2/3,x-y+1/3,z+1/3
 36 -x+y+2/3,y+1/3,z+1/3
- 
+
 loop_
 _atom_site_label
 _atom_site_type_symbol
@@ -80,24 +80,24 @@ _atom_site_fract_z
 _atom_site_occupancy
 Mn1_1 Mn   3 a  0.00000  0.00000  0.00000  1.00000
 O1_1  O    3 b  0.00000  0.00000  0.50000  1.00000
- 
+
 _iso_displacivemode_number    0
- 
- 
+
+
 _iso_magneticmode_number    0
- 
- 
+
+
 _iso_occupancymode_number    0
- 
+
 _iso_strainmode_number    2
- 
+
 loop_
 _iso_strainmode_ID
 _iso_strainmode_label
 _iso_strainmode_value
    1 Fm-3m[0,0,0]GM5+(a,a,a)strain(a) -0.01000
    2 Fm-3m[0,0,0]GM1+(a)strain(a) 0.00000
- 
+
 loop_
 _iso_strain_ID
 _iso_strain_label
@@ -108,10 +108,10 @@ _iso_strain_value
    4 E_4  -0.01000
    5 E_5  -0.01000
    6 E_6  -0.01000
- 
+
 # matrix conversion: strains(parent) = matrix * modeamplitudes
 # Rectangular matrix with 6 rows and _iso_strainmode_number columns
- 
+
 loop_
 _iso_strainmodematrix_row
 _iso_strainmodematrix_col
@@ -122,6 +122,5 @@ _iso_strainmodematrix_value
     4    1   1.00000
     5    1   1.00000
     6    1   1.00000
- 
-# end of structure file
 
+# end of structure file
